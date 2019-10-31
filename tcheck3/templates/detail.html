@@ -1,0 +1,18 @@
+<html>
+    {%extends 'base.html'%}
+    {%block content%}
+    <head>
+        <title>
+            Details
+        </title>
+    </head>
+    <body>
+        <ol>
+        <li>title:{{obj.title}}</li>
+        <li>transaction_id:{{obj.transaction_id}}</li>
+        <li>datetime:{{obj.datetime}}</li>
+        <li>amount:{{obj.amount}}</li>
+    </ol>
+    </body>
+    {%endblock%}
+</html>
